@@ -8,8 +8,9 @@ function HomeLayout() {
     return (
         <>
             <Navbar />
+            <div className= "bg-teal-200 h-screen w-full grid place-items-center">
             <Outlet />
-            <Footer />
+            </div>
             <ToastContainer position="bottom-right" />
         </>
     )

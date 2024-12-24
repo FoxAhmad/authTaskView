@@ -40,8 +40,7 @@ export default function UpdateTaskPage() {
 
                 <section className="mb-8">
                     <p className="mt-4 text-gray-600">
-                        Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-                    </p>
+                        crewate new tasks and manage them here</p>
                 </section>
 
                 <TaskForm initialTask={task} />

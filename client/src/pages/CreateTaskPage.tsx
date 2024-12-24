@@ -16,8 +16,7 @@ export default function CreateTaskPage() {
 
             <section className="mb-8">
                 <p className="mt-4 text-gray-600">
-                    Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-                </p>
+                   create a new task and manage </p>
             </section>
 
             <TaskForm />
@@ -73,7 +72,7 @@ function TaskForm() {
         <form onSubmit={handleSubmit} className="space-y-6">
             <div className="flex flex-col gap-4">
                 <div>
-                    <label className="block text-gray-700 font-medium mb-1">Heading</label>
+                    <label className="block text-gray-700 font-medium mb-1">NAME</label>
                     <input
                         type="text"
                         name="heading"
@@ -83,7 +82,7 @@ function TaskForm() {
                     />
                 </div>
                 <div>
-                    <label className="block text-gray-700 font-medium mb-1">Details</label>
+                    <label className="block text-gray-700 font-medium mb-1">Describe your task</label>
                     <textarea
                         name="description"
                         value={formData.description}

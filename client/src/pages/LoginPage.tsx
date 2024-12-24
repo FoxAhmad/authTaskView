@@ -16,16 +16,14 @@ export default function LoginPage() {
     }
 
     return (
-        <div className="flex flex-wrap">
-            <div className="flex w-full flex-col md:w-1/2">
-                <div className="flex justify-center pt-12 md:-mb-24 md:justify-start md:pl-12">
-                    <a href="#" className="border-b-gray-700 border-b-4 pb-2 text-2xl font-bold text-gray-900"> BookNest . </a>
-                </div>
+        <div className="flex bg-teal-200 flex-wrap">
+            <div className="flex  w-full flex-col md:w-1/2">
+                
                 <div className="lg:w-[28rem] mx-auto my-auto flex flex-col justify-center pt-8 md:justify-start md:px-6 md:pt-0">
                     <p className="text-left text-3xl font-bold">Welcome back</p>
                     <p className="mt-2 text-left text-gray-500">Welcome back, please enter your details.</p>
                    
-                   
+                    
                     <form onSubmit={onSubmit} className="flex flex-col pt-3 md:pt-8">
                         <div className="flex flex-col pt-4">
                             <div className="focus-within:border-b-gray-500 relative flex overflow-hidden border-b-2 transition">

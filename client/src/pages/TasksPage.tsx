@@ -96,7 +96,7 @@ function TaskListItem({ task, removeTask }: { task: any, removeTask: (id: string
     const navigate = useNavigate()
 
     return (
-        <li className="w-full rounded-md shadow-2xl shadow-black/30 flex flex-row items-center p-4 gap-12">
+        <li className="w-full bg-white rounded-md shadow-2xl shadow-black/30 flex flex-row items-center p-4 gap-12">
             <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-4">
                     <H4>{task.heading}</H4>
